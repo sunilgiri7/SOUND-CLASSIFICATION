@@ -15,6 +15,7 @@ Created on sat April 1 12:53:04 2023
 # Load the model from a file
 # with open('model.pkl', 'rb') as f:
 #     model = pickle.load(f)
+st.title('SOUND CLASSIFICATION APP')
 file_path = st.text_input(label="Enter path to audio file")
 # Load audio file and extract features when submit button is clicked
 if st.button("Submit"):
